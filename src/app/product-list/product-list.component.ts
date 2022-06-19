@@ -1,20 +1,22 @@
 import { Component } from '@angular/core';
 
 import { products } from '../products';
+import { students } from '../students';
 
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css']
+  styleUrls: ['./product-list.component.css'],
 })
 export class ProductListComponent {
   products = products;
+
+  students = students;
 
   share() {
     window.alert('The product has been shared!');
   }
 }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
