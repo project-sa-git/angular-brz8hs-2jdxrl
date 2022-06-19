@@ -12,7 +12,9 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    RouterModule.forRoot([{ path: '', component: ProductListComponent }]),
+    RouterModule.forRoot([{ 
+      path: '', component: ProductListComponent 
+    }]),
   ],
   declarations: [
     AppComponent,
